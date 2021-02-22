@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{   
+    font-family: 'Akaya Kanadaka', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    background-size: cover;
+    height: 100vh;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    color: white;
+}
+#time{
+    font-size: 2rem;
+    position: absolute;
+    bottom: 350px;
+    left: 55px;
+    width: 150px;
+}
+
+
+@media(max-width:700px){
+    #time{
+        font-size:6rem ;
+    }
+
+}
+.tempreture{
+    position: absolute;
+    top: 20px;
+    right: 70px;
+    width: 60px;
+}
+.icon img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 80px;
+}
+h2{
+    margin-bottom: 10px;
+}
+.notes{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    height:300px;
+    width:200px;
+    overflow:auto;
+    background-color:black;
+    color:white;
+    padding:10px;
+    opacity: 0.6;
+}
